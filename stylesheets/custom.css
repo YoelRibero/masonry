@@ -1,0 +1,55 @@
+/* line 1, ../sass/custom.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* force scrollbar */
+/* line 4, ../sass/custom.scss */
+html {
+  overflow-y: scroll;
+}
+
+/* line 6, ../sass/custom.scss */
+body {
+  font-family: sans-serif;
+}
+
+/* ---- grid ---- */
+/* line 10, ../sass/custom.scss */
+h1 {
+  font-size: 40px;
+  margin: 2rem;
+}
+
+/* line 15, ../sass/custom.scss */
+.grid {
+  background: #DDD;
+}
+
+/* clear fix */
+/* line 20, ../sass/custom.scss */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+/* line 28, ../sass/custom.scss */
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+/* line 33, ../sass/custom.scss */
+.grid-item {
+  float: left;
+}
+
+/* line 37, ../sass/custom.scss */
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  padding: 1rem;
+  border-radius: 25px;
+}
